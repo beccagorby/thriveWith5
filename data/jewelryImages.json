@@ -1,0 +1,154 @@
+{
+  "jewelry": [
+    {
+      "id": 0,
+      "name": "Name",
+      "imgURL": "assets/inventory/2014_P80002(BACKOFFICE).jpg"
+    },
+    {
+      "id": 1,
+      "name": "Name",
+      "imgURL": "assets/inventory/2016_1MainImage1(AWW-Copper)_1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Name",
+      "imgURL": "assets/inventory/2019_1MainImage1(BlackRibbon).jpg"
+    },
+    {
+      "id": 3,
+      "name": "Name",
+      "imgURL": "assets/inventory/2020_1MainImage1(ATT-Pink)_1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Name",
+      "imgURL": "assets/inventory/2022_P2RE-BNBN-017XX(01).jpg"
+    },
+    {
+      "id": 6,
+      "name": "Name",
+      "imgURL": "assets/inventory/2023_P8013-copy.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Name",
+      "imgURL": "assets/inventory/2047_1Image1(Allcoizedup)_1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Name",
+      "imgURL": "assets/inventory/2160_1MainImage1(FFC-Silver).jpg"
+    },
+    {
+      "id": 9,
+      "name": "Name",
+      "imgURL": "assets/inventory/2213_1Mainimage(Tribe)001.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Name",
+      "imgURL": "assets/inventory/2244_1Image(lifeintheglitzlane)nologo.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Name",
+      "imgURL": "assets/inventory/2966_1Image2(Silver20-89)_1.jpg"
+    },{
+      "id": 12,
+      "name": "Name",
+      "imgURL": "assets/inventory/6088_1MainImage-(Bracelet-MM-LOGO)_1.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Name",
+      "imgURL": "assets/inventory/6089_1MainImage-(Ring-MM-NOLOGO)_1.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Name",
+      "imgURL": "assets/inventory/6090_1MainImage-(Earring-MM-NOLOGO)_1.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Name",
+      "imgURL": "assets/inventory/6619_1MainImage-(Silver-24-29)_1.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Name",
+      "imgURL": "assets/inventory/6707_1Image1(Gold-9-606)1_1.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Name",
+      "imgURL": "assets/inventory/7129_1Image1(Brass37-1)_1.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Name",
+      "imgURL": "assets/inventory/7161_1MainiMAGE-(bLACK-XX)_1.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Name",
+      "imgURL": "assets/inventory/7175_1Image1(White16-390)_1.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Name",
+      "imgURL": "assets/inventory/7272_1Image1(Yellow9-623)_2.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Name",
+      "imgURL": "assets/inventory/7343_1Mainimage-(Silver-16-493)_1.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Name",
+      "imgURL": "assets/inventory/7344_1Mainimage-(Silver-16-321)_1.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Name",
+      "imgURL": "assets/inventory/7347_1Mainimage-(Silver-16-322)_1.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Name",
+      "imgURL": "assets/inventory/7348_1Mainimage-(Silver-16-495_1.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Name",
+      "imgURL": "assets/inventory/7351_1Mainimage-(Black-16-322)_1.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Name",
+      "imgURL": "assets/inventory/7352_1Mainimage-(Black-16-495)_1.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Name",
+      "imgURL": "assets/inventory/7353_1Image1(Blue16-320)1_1.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Name",
+      "imgURL": "assets/inventory/7405_1Mainimage-(Multi-16-377)_1.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Name",
+      "imgURL": "assets/inventory/7406_1Mainimage-(Brass-16-378)_1.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Name",
+      "imgURL": "assets/inventory/7439_1Mainimage-(White-37-352)_1.jpg"
+    }
+
+  ]
+}

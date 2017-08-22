@@ -1,0 +1,143 @@
+<head>
+    <script>
+        $(".header").click(function(e){
+            var headerId = this.id;
+            var answerName = headerId + "Answers";
+            var closeName = headerId + "Close";
+
+            $("#" + answerName).slideToggle('fast');
+            $("#" + headerId).css("background-color", "#ee008c");
+
+            $("#" + closeName).click(function(){
+                $("#" + answerName).slideUp('fast');
+                $("#" + headerId).css("background-color", "#333333");
+            });
+        });
+
+    </script>
+</head>
+<body>
+<div id="faqSection">
+    <h2>Frequently Asked Questions:</h2>
+    <h3 id="consultant" class="header">Questions about becoming a consultant</h3>
+    <div id="consultantAnswers" class="answers">
+        <dl>
+            <dt>How much does it cost to join?</dt>
+            <dd>There are 3 options to choose from: $99, $299, $499.</dd>
+            <dt>Do I have to have people under me to make money?</dt>
+            <dd>No, you can achieve a full income with no one under you! You make 45% commission on all of your sales. The more you work your business, the more money you can make.</dd>
+            <dt>How much money can I make?</dt>
+            <dd>You make $2.25 for every piece you sell & can make even more money from having a team. When building a team you get 5% on personally sponsored consultants' orders until you hit Director, then 10% after that.</dd>
+            <dt>Are there catalogs?</dt>
+            <dd>No, styles & pieces are added & sold out constantly so catalogs are not practical. Each consultant gets a free website which acts as a catalog with inventory being updated continuously.</dd>
+            <dt>What are the quotas and annual fees?</dt>
+            <dd>To remain consultant status you need 200 PV (100 pieces) a year. To remain active for the month & to get paid on your downline you need 50 PV (25 pieces). Active monthly status also keeps you in the consultant search for new customers/prospective consultants. There are no annual or monthly fees.</dd>
+            <dt>How do I join?</dt>
+            <dd>Find a consultant whose team you would like to join, select which kit suits you best, complete online registration/payment for the kit & you're done!</dd>
+            <dt>How is Paparazzi different from other companies?</dt>
+            <dd>Paparazzi has no monthly minimums, no catalogs, no fees or membership other than the inital starter kit purchase. All in all, FUN with less restrictions on how you can run your business!</dd>
+            <dt>Why should I join?</dt>
+            <dd>Friends, fun, extra income, full income, work your own hours, & unlimited earning potential.</dd>
+            <dt>Do I get a website and how much does it cost?</dt>
+            <dd>Yes & it's FREE!</dd>
+            <dt>How many other consultants are there?</dt>
+            <dd>_______ have signed up & there are ______ consultants active each month. Paparazzi is still a new company seeing new & incredible growth making now the best time to join.</dd>
+            <dt>How many hours will I have to work?</dt>
+            <dd><!--I recommend allotting one hour a day but -->You can work as many hours as you would like but the more you work it, the more you will make.</dd>
+            <dt>What kind of training will I receive?</dt>
+            <dd>I created this site to provide general training & many teams have Facebook trainings, training calls & team meetings. My team utilizes all these methods to provide access to growth for all members.</dd>
+            <dt>Why does the starter kit come with a jewelry repair kit?</dt>
+            <dd>A lot of jewelry contains jump rings. These rings sometimes come loose & the kit also makes it possible to further customize pieces by making them longer or shorter.</dd>
+            <dt>How and when do you get paid?</dt>
+            <dd>If you keep inventory on hand, every time you sell a piece you make 45% profit. If you sell off your website &/or have a team, you earn a monthly commission which is posted on the 10th & paid.</dd>
+            <dt>How much support is there?</dt>
+            <dd>Support is given by your team of uplines & downlines. There are active team Facebook group pages as well.</dd>
+            <dt>What comes in a starter kit?</dt>
+            <dd>Inventory, jewelry displays, style snapshots, sales bags, Paparazzi Business Success Plan, display hooks, jewelry tool kit, party invitations, window decal, receipts, new consultant enrollment forms, thank you cards, frequent buyer loyalty cards, & compensation plan brochures.</dd>
+            <dt>How do I choose which kit is best for me?</dt>
+            <dd>The largest kit offers the best value & includes 200 pieces of jewelry & the most marketing materials for $499. The second largest kit is $299 & includes 120 pieces of jewelry & the various marketing materials. The smallest kit is $99 & comes with 35 pieces of jewelry & the same marketing materials just a lesser amount.</dd>
+            <dt>What is "upline" and "downline"?</dt>
+            <dd>Upline is who signed you up & the people above them. Downline is the people you sign up & those whom they sign up & sponsor.</dd>
+            <dt>What does "active" mean?</dt>
+            <dd>50 PV (25 pieces) a month, commission qualified for downline, & showing up in the consultant search.</dd>
+        </dl>
+        <div id="consultantClose" class="close">Close</div>
+    </div>
+
+
+    <h3 id="selling" class="header">Questions about selling</h3>
+    <div id="sellingAnswers" class="answers">
+        <dl>
+            <dt>Who do I sell to?</dt>
+            <dd>Everyone! Friends, family, strangers, you name it. Wear it & share it everywhere!</dd>
+            <dt>How do I display my jewelry?</dt>
+            <dd>There are many different options for displaying your jewelry such as pegboards, trays, jewelry busts, & twirl-a-ties, to name a few. Just keep in mind to keep in clean & professional.</dd>
+            <dt>Can I charge more than $5?</dt>
+            <dd>No, with the one exception being for a fundraiser where anything over $5 is donated. Otherwise, the $5 price point must be stuck to.</dd>
+            <dt>How can I advertise?</dt>
+            <dd>Paparazzi offers lots of freedom on how & where you can advertise.</dd>
+            <dt>Where do I start?</dt>
+            <dd>Start with a launch party inviting all your friends & family. This is your warm market & the goal is to have someone book a party in which you will meet new prospective clients & start to tap into your cold market.</dd>
+            <dt>What if my jewelry arrives broken?</dt>
+            <dd>Once items are received, you have 3 days to inspect & submit a claim/return. Most items are easily fixable with the tool kit. Loose rings are the most common cause of broken pieces & those parts just need pinched back together to repair.</dd>
+            <dt>How often do you get new jewelry?</dt>
+            <dd>New items are released for purchase generally every Monday thru Friday evening. You can purchase more whenever you would like & styles remain for purchase until they sell out.</dd>
+            <dt>How do I know what jewelry to buy?</dt>
+            <dd>Everyone's style is different so you want to keep a wide variety of pieces. Styles that you like may not be what others like & vice versa.</dd>
+            <dt>How does this affect my taxes?</dt>
+            <dd>Paparazzi takes care of reporting the sales tax for you so you are just responsible for reporting your income. You will also want to keep track of any expenses used for your business to use for deductions.</dd>
+            <dt>Are there live events or training?</dt>
+            <dd>Every year there is a 3 day convention in August as well as an Empower Me Pink tour around February which lasts a couple hours. August is the kickoff of the Fall line & Empower Me Pink of the Spring. Both events have fabulous training & goodies!</dd>
+            <dt>How much inventory should I keep?</dt>
+            <dd>The caliber of the events & parties you want to do determines approximately how much you would want to keep. If you are doing small parties: 100-200 pieces. Large parties: 500+ pieces. Keep in mind, the more inventory & styles you have to offer, the more you are likely to sell.</dd>
+        </dl>
+        <div id="sellingClose" class="close">Close</div>
+    </div>
+
+
+    <h3 id="accessory" class="header">Questions about the accessories</h3>
+    <div id="accessoryAnswers" class="answers">
+        <dl>
+            <dt>What is the jewelry made from?</dt>
+            <dd>The jewelry is made from a blend of mixed metals. All Paparazzi jewelry is lead & nickel free. </dd>
+            <dt>Will the jewelry discolor your skin?</dt>
+            <dd>For most people it will not. For some people depending on the chemistry of their skin it may cause discoloration. Those people will mainly see this from the rings. Wearing lotions & washing hands with the rings on may cause discoloration as well.</dd>
+            <dt>How long does it take to receive my items?</dt>
+            <dd>A week is the average turnaround time.</dd>
+            <dt>What is the quality of the jewelry?</dt>
+            <dd>Amazing! It's not real gold or silver but for $5 you will be pleasantly surprised at how great the quality of the pieces are!</dd>
+            <dt>How much is shipping?</dt>
+            <dd>Standard shipping is a flat rate of $5.95.</dd>
+            <dt>What kind of accessories are available?</dt>
+            <dd>Necklaces, rings, bracelets, earrings, lanyards, hair clips, headbands, and hippie headbands. There are a wide variety of pieces to suit every style.</dd>
+            <dt>What styles of accessories are available?</dt>
+            <dd>There are pieces to suit every style. Whether you accessorize with pieces that are big & bold, tasteful & dainty, urban, or flashy statement pieces. Every piece then fits into one of five style categories. </dd>
+            <dt>Is swag available?</dt>
+            <dd>Yes, swag is available for consultants including clothes, exclusive jewelry pieces, bags, water bottles, hats, etc.</dd>
+        </dl>
+        <div id="accessoryClose" class="close">Close</div>
+    </div>
+
+    <h3 id="hosting" class="header">Questions about hosting a party</h3>
+    <div id="hostingAnswers" class="answers">
+        <dl>
+            <dt>What types of parties are available?</dt>
+            <dd>Facebook, home, & basket.</dd>
+            <dt>Who gets hostess rewards and how are they determined?</dt>
+            <dd>Anyone who hosts a qualifying party. A party must hit $50 in sales. The hostess then gets 1 free piece for having the party & 1 free piece for every 10 pieces sold during the party.</dd>
+            <dt>What do I do at a party?</dt>
+            <dd>As a hostess you want to invite your friends & family & show them our excitement! Uou want to participate & if the party is online, frequently liking & commenting on posts makes it more successful.</dd>
+            <dt>What should I wear?</dt>
+            <dd>Casual clothes dressed up in bling of course! You will get the first look at the amazing pieces & pick out what you want for hostess rewards before the party begins.</dd>
+            <dt>How many people should I invite?</dt>
+            <dd> </dd>
+            <dt>How far in advance should I invite people?</dt>
+            <dd>You should invite friends 2 weeks before the party if possible. When the party gets closer, send out reminders. Be sure to show your excitement & be talking about the party as soon as you have a date set & all the way until the party is over.</dd>
+            <dd>You will want to send a personal message or mail invitations to invite your friends & family. Let them know you truly want them there & what fun it will be!</dd>
+            <dt>How long will the party last?</dt>
+            <dd>The average party is an hour. Depending on party size & games, some will last 2 hours.</dd>
+        </dl>
+        <div id="hostingClose" class="close">Close</div>
+    </div>
+    </div>
+</body>
